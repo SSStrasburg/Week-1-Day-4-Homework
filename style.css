@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,700,700i');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+main{
+  margin-left: 3em;
+  width:27em;
+
+}
+
+/*gets background back for floated elements this is a hack*/
+nav::after {
+  content: '';;
+  display: block;
+  clear: both;
+}
+
+section{
+  border: 1px solid rgb(0,0,200);
+  width: 27em;
+}
+
+nav{
+    /*display: inline-block; */
+    /*this does not work because things were floated
+    we need the hack for floated*/
+    width: 100%;
+    /*border: 1px solid rgb(0,0,200);*/
+    border-top: 1px solid rgb(0,0,200);
+
+}
+
+aside{
+    border-left: 1px solid rgb(0,0,200);
+    /*border-top: 1px solid rgb(0,0,200);*/
+    /*border: 1px solid black;*/
+    width: 19%;
+    float:left;
+    text-align: center;
+}
+
+.bottom-header-price{
+  width: 100%;
+  margin: 0;
+}
+
+h1{
+  float: right;
+  text-align: right;
+  padding: 0 1px 0 5px;
+  margin: 0;
+  border: 1px solid rgb(0, 200, 200);
+}
+
+
+h2{
+  text-align: left;
+  float: left;
+  margin:0;
+}
+
+h3{
+  text-align: right;
+  margin:0;
+  float: right;
+
+}
+
+.blue-front{
+  display: inline-block;
+  padding: 1em 0 3em 2em;
+}
