@@ -26,8 +26,31 @@ nav{
     width: 100%;
     /*border: 1px solid rgb(0,0,200);*/
     border-top: 1px solid rgb(0,0,200);
-
 }
+
+.hidden{
+    width:100%;
+    opacity: 0;
+}
+
+/*attached to fa-user-plus*/
+.hidden-shirt-size{
+    float: left;
+    text-align: right;
+    padding: 0 0 0 43%;
+}
+
+/*hidden part for fa-square*/
+.hidden-color{
+    float:right;
+    text-align: right;
+    padding: 0 28% 0 0;
+}
+
+/*.shirt-attributes: last-child{
+  border-left: none;
+} this is to remove the extra line from aside */
+
 
 aside{
     border-left: 1px solid rgb(0,0,200);
@@ -68,4 +91,93 @@ h3{
 .blue-front{
   display: inline-block;
   padding: 1em 0 3em 2em;
+}
+
+.fa-repeat{
+  color: rgb(22,100,100);
+  text-decoration: none;
+  /*font-size: 3em;*/
+  transition: transform 1s linear, color 4s linear;
+}
+/* this is the top icon to flip the image*/
+.fa-repeat:hover{
+    color: rgb (200, 30, 30);
+    transform: rotate(90deg);
+}
+
+
+.fa-refresh{
+  color: rgb(22,100,100);
+  text-decoration: none;
+  font-size: 3em;
+  transition: transform 1s linear, color 4s linear;
+}
+/**/
+.fa-refresh:hover{
+    color: rgb (200, 30, 30);
+    transform: rotate(90deg);
+}
+
+
+.fa-heart{
+  color: rgb(22,100,100);
+  text-decoration: none;
+  font-size: 3em;
+  transition: transform 1s linear, color 4s linear;
+}
+/**/
+.fa-heart:hover{
+    color: rgb (200, 30, 30);
+    transform: rotate(90deg);
+}
+
+
+.fa-user-plus{
+  color: rgb(22,100,100);
+  text-decoration: none;
+  font-size: 3em;
+  transition: transform 1s linear, color 4s linear;
+}
+/*shirt size vertical align 4 sizes*/
+.fa-user-plus:hover{
+    color: rgb (200, 30, 30);
+    transform: rotate(90deg);
+}
+
+.fa-user-plus:hover ~ .hidden-shirt-size {
+    opacity: 1;
+    /*height: 6em;*/
+  }
+
+
+
+.fa-square{
+  color: rgb(22,200,100);
+  text-decoration: none;
+  font-size: 3em;
+  transition: transform 1s linear, color 4s linear;
+/*
+  #.hidden-color {
+  opacity: 1;
+  filter: alpha(opacity=30)
+  }*/
+}
+
+
+/*shirt color: popup 4 square colors*/
+.fa-square:hover{
+    color: rgb (200, 30, 30);
+    transform: rotate(90deg);
+}
+
+.fa-shopping-cart{
+  color: rgb(200,200,10);
+  text-decoration: none;
+  font-size: 3em;
+  transition: transform 1s linear, color 4s linear;
+}
+/*not linking to shopping cart, just rotating*/
+.fa-shopping-cart:hover{
+    color: rgb (200, 30, 230);
+    transform: rotate(90deg);
 }
