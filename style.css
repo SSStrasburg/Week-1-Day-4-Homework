@@ -7,6 +7,12 @@ main{
 
 }
 
+.new-shirt{
+  margin-top: 2em;
+  padding-top: 2em;
+  float: left;
+}
+
 /*gets background back for floated elements this is a hack*/
 nav::after {
   content: '';;
