@@ -53,8 +53,6 @@ nav{
   $( this ).addClass('active');
 });
 
-<input type="button" class="button" id="button1" value="Button 1">
-<input type="button" class="button" id="button2" value="Button 2">
 */
 
 /*hidden part for fa-square*/
@@ -147,18 +145,6 @@ h1:active ~ .blue-back{
   transform: rotateY(0deg);
 }
 
-
-/*
-#blue-back:active
-      #blue-front{
-        opacity: 0;
-      }
-      #blue-back{
-        opacity: 1;
-      }*/
-
-
-
 h2{
   text-align: left;
   float: left;
@@ -201,7 +187,8 @@ transform: rotateY(45deg);
   text-decoration: none;
   font-size: 3em;
 }
-/**/
+
+
 .fa-refresh:hover{
     color: rgb (200, 30, 30);
     transform: rotate(90deg);
@@ -213,7 +200,8 @@ transform: rotateY(45deg);
   text-decoration: none;
   font-size: 3em;
 }
-/**/
+
+
 .fa-heart:hover{
     background-color: rgb (200, 30, 30);
     transform: translate(0 1em);
