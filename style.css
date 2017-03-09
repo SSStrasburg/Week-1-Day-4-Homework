@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,700,700i');
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 main{
@@ -22,14 +21,13 @@ nav::after {
 
 section{
   border: 1px solid rgb(0,0,200);
-  width: 27em;
 }
 
 nav{
     /*display: inline-block; */
     /*this does not work because things were floated
     we need the hack for floated*/
-    width: 100%;
+
     /*border: 1px solid rgb(0,0,200);*/
     border-top: 1px solid rgb(0,0,200);
 }
@@ -41,7 +39,7 @@ nav{
     height: 12em;
     width:3em;
     margin-bottom: 4em;
-    opacity: 0.3;
+    opacity: 0;
     padding: 0 20% 0 18%;
     list-style-type: none;
     position: absolute;;
